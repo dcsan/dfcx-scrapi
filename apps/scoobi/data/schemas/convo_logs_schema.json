@@ -1,0 +1,162 @@
+[
+  {
+    "column_name": "current_sprint_number",
+    "data_type": "INT64",
+    "description": "sprint number to normalize for WHERE query with others"
+  },
+  {
+    "column_name": "channel",
+    "data_type": "STRING",
+    "description": "only used by CLIENTB"
+  },
+  {
+    "column_name": "dataset_display_name",
+    "data_type": "STRING",
+    "description": "only used by CLIENTB"
+  },
+  {
+    "column_name": "project_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "agent_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "session_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "positions",
+    "data_type": "STRING",
+    "description": "list of positions with newline"
+  },
+  {
+    "column_name": "total_positions",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "use_case",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "flows",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "pages",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "roles",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "intents",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "contents",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "handoff",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "fallback",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "contained",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "abandoned",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "escalated",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "abandoned_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "escalated_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "operator_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "completed_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "tc_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "review",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "no_input_total",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "no_match_total",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "reasons",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "path",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "pages_dd",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "exit",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "intent_detail",
+    "data_type": "INT64",
+    "description": "is this a detailed intent"
+  }
+]

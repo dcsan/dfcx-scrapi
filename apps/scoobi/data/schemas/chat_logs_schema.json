@@ -1,0 +1,227 @@
+[
+  {
+    "column_name": "current_sprint_number",
+    "data_type": "INT64",
+    "description": "sprint number to normalize for WHERE query with others"
+  },
+  {
+    "column_name": "channel",
+    "data_type": "STRING",
+    "description": "only used by clientB"
+  },
+  {
+    "column_name": "project_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "agent_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "dataset_display_name",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "session_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "position",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "role",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "use_case",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "flow",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "flow_source",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "flow_target",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "page",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "page_target",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "page_source",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "content",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "intent",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "triggered_intent",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "confidence",
+    "data_type": "FLOAT",
+    "description": null
+  },
+  {
+    "column_name": "match_type",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "match_target",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "fallback",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "contained",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "abandoned",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "escalated",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "no_input_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "no_match_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "tc_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "operator_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "escalated_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "abandoned_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "completed_check",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "review",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "reason",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "exit",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "is_start",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "is_end",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "handoff",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "tc",
+    "data_type": "STRING",
+    "description": "true/false/undetermined as a string"
+  },
+  {
+    "column_name": "page_path",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "page_link",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "detail",
+    "data_type": "STRING",
+    "description": "markup by DDs"
+  },
+  {
+    "column_name": "intent_detail",
+    "data_type": "INT64",
+    "description": "is this a detailed intent"
+  },
+  {
+    "column_name": "intent_target",
+    "data_type": "STRING",
+    "description": "next target intent"
+  },
+  {
+    "column_name": "intent_last",
+    "data_type": "STRING",
+    "description": "last intent matched"
+  }
+]

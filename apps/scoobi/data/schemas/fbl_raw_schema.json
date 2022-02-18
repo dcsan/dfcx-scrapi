@@ -1,0 +1,182 @@
+[
+  {
+    "column_name": "current_sprint_number",
+    "data_type": "INT64",
+    "description": "sprint number to normalize for WHERE query with others"
+  },
+  {
+    "column_name": "dataset_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "dataset_display_name",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "project_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "agent_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "use_case",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "session_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "message_id",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "sample_index",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "position",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "message_logged_time",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "role",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "content",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "description",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "detail",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "rater_email",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "entry_flow",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "entry_flow_display_name",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "exit_flow",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "exit_flow_display_name",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "message_flow",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "message_flow_display_name",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "page_display_name",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "intent_display_name",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "valid_exit",
+    "data_type": "BOOL",
+    "description": null
+  },
+  {
+    "column_name": "live_agent_handoff",
+    "data_type": "BOOL",
+    "description": null
+  },
+  {
+    "column_name": "intent_is_fallback",
+    "data_type": "BOOL",
+    "description": null
+  },
+  {
+    "column_name": "transition_count",
+    "data_type": "INT64",
+    "description": null
+  },
+  {
+    "column_name": "session_contained",
+    "data_type": "BOOL",
+    "description": null
+  },
+  {
+    "column_name": "session_abandoned",
+    "data_type": "BOOL",
+    "description": null
+  },
+  {
+    "column_name": "session_live_agent_handoff",
+    "data_type": "BOOL",
+    "description": null
+  },
+  {
+    "column_name": "intent_confidence_score",
+    "data_type": "FLOAT64",
+    "description": null
+  },
+  {
+    "column_name": "match_confidence",
+    "data_type": "FLOAT64",
+    "description": null
+  },
+  {
+    "column_name": "match_type",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "event",
+    "data_type": "STRING",
+    "description": null
+  },
+  {
+    "column_name": "live_agent_escalation",
+    "data_type": "BOOL",
+    "description": null
+  }
+]

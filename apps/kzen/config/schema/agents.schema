@@ -1,0 +1,10 @@
+cname: STRING,
+nlu: STRING,
+th: STRING,
+agent_path: STRING,
+channel: STRING,
+tags: STRING,
+skip: STRING,
+notes: STRING,
+agent_url: STRING,
+creds_path: STRING

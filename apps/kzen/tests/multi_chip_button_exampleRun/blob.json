@@ -1,0 +1,62 @@
+{
+    "values": [
+      {
+        "0": [
+          {
+            "0": "Option-A"
+          },
+          {
+            "1": "Option-B"
+          },
+          {
+            "2": "Option-C"
+          }
+        ]
+      }
+    ],
+    "message": "Choose a topic to chat about:",
+    "components": [
+      {
+        "0": "Button"
+      }
+    ],
+    "Option-A": {
+      "values": [
+        {
+          "0": [
+            {
+              "0": "choice1"
+            },
+            {
+              "1": "choice2"
+            },
+            {
+              "2": "choice3"
+            }
+          ]
+        }
+      ],
+      "message": "Choose a topic to chat about:",
+      "components": [
+        {
+          "0": "Button"
+        }
+      ],
+      "choice1": {
+        "message": " this is choice 1 you choose."
+      },
+      "choice2": {
+        "message": "this is choice 2 you choose."
+      },
+      "choice3": {
+        "message": " this is choice 3 you choose."
+      }
+    },
+    "Option-B": {
+      "message": "this is option B"
+    },
+    "Option-C": {
+      "message": "this is option C"
+    }
+  }
+  

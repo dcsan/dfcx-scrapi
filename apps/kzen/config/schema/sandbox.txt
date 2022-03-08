@@ -1,0 +1,2 @@
+SchemaField('name', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('tags', 'STRING', 'NULLABLE', None, (), None)

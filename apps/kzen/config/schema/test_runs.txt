@@ -1,0 +1,8 @@
+SchemaField('testname', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('cmd', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('param', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('value', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('actual', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('status', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('comment', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('loglevel', 'STRING', 'NULLABLE', None, (), None)

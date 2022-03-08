@@ -1,0 +1,93 @@
+.linker-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.sankey-box {
+    width: calc(100vw - 100px);
+    height: calc(100vh - 250px);
+    z-index: 1;
+}
+
+.sims-table {
+    position: absolute;
+    left: 25vw;
+    width: 50vw;
+    border: 1px solid #222;
+    padding: 5px;
+    overflow-y: scroll;
+    height: calc(100vh - 250px);
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.sankey-group {
+    padding: 5px;
+    /* background-color: #888; */
+    /* color: white; */
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.intent-group {
+    padding: 5px;
+    background-color: #222;
+    color: white;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.text-group {
+    padding: 5px;
+    border-top: 1px solid #222;
+    background-color: #CECECE;
+    color: black;
+}
+
+/*
+.sim-outer {
+    padding: 5px;
+    border: 2px solid #444;
+}
+*/
+
+.sim-inner {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sim-inner.picked {
+    background: #CFF;
+}
+
+.sim-left {
+    text-align: left;
+}
+
+.sim-right {
+    width: 100%;
+    text-align: right;
+}
+
+.pill-shape {
+    display: inline-block;
+    min-width: 35px;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    margin-left: 5px;
+    font-size: 0.8rem;
+}
+
+.sim-details {
+    color: #222;
+}
+
+.tiny-pill {
+    font-size: 0.8rem;
+    padding: 4px;
+    background: #ccc;
+    margin-right: 2px;
+}

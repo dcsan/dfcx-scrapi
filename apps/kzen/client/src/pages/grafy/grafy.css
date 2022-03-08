@@ -1,0 +1,43 @@
+.cyto-box {
+    background-color: #ccc;
+    border: 1px solid #222;
+    width: calc(100vw - 150px);
+    height: calc(100vh - 150px);
+}
+
+.page-info-box {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 100vh;
+    /* padding: 10px; */
+    border: 1px solid #444;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.page-name {
+    color: #228;
+}
+
+.link-box-header {
+    background-color: #222;
+    color: white;
+    font-size: medium;
+    padding: 3px;
+}
+
+.link-item {
+    font-size: small;
+    flex-direction: row;
+    border-top: 1px solid #888;
+    padding: 3px;
+}
+
+.link-counter {
+    display: inline-block;
+    min-width: 50px;
+}

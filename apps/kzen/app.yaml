@@ -1,0 +1,77 @@
+# GAE config
+# https://cloud.google.com/appengine/docs/standard/python3/configuring-your-app-with-app-yaml
+
+## python version
+runtime: python39
+
+# needed for mail (which is not being used now)
+# app_engine_apis: true
+
+### if we just need superbasic auto scaling go back to this
+# instance_class: F2
+
+
+# https://cloud.google.com/appengine/docs/standard#instance_classes
+# https://cloud.google.com/appengine/docs/standard/python3/how-instances-are-managed#scaling_types
+# we need longer timeouts for long tasks
+# auto scaling shuts after 5mins
+instance_class: B4_1G
+basic_scaling:
+  max_instances: 8
+  idle_timeout: 60m
+
+# FIX me - not sure how this interacts with above instance?
+resources:
+  cpu: 2
+  memory_gb: 4
+  disk_size_gb: 50
+  volumes:
+  - name: ramdisk1
+    volume_type: tmpfs
+    size_gb: 1
+
+env_variables:
+  KZEN_VERSION: "3.0.1"
+
+
+handlers:
+
+  # This configures Google App Engine to serve the files in the app's static
+  # directory.
+- url: /static
+  static_dir: client/build/static
+
+- url: /(.*\.(json|ico|js))$
+  static_files: client/build/\1
+  upload: client/build/.*\.(json|ico|js)$
+
+- url: /_ah/.*
+  script: auto
+
+- url: /api/.*
+  script: auto
+
+- url: /cron/.*
+  script: auto
+
+- url: /dumps/.*
+  static_dir: public/runs/dumps
+
+# anything .yaml or .csv look in the dumps directory
+# - url: /(.*\.(yaml|csv))$
+#   static_files: public/runs/dumps/\1
+#   upload: public/runs/dumps/.*\.(yaml|csv)$
+
+  # goes at the end
+  # This handler routes all requests not caught above to your main app. It is
+  # required when static routes are defined, but can be omitted (along with
+  # the entire handlers section) when there are no static files defined.
+- url: .*
+  static_files: client/build/index.html
+  upload: client/build/index.html
+
+
+
+# basic_scaling:
+#   max_instances: 4
+#   idle_timeout: 60m

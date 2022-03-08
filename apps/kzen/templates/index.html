@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <title>TestRunner</title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <h1>TestRunner v1.4</h1>
+
+<div class='stacked'>
+  <button class='big-button' onClick='sysCheck()'>System Check</button>
+  <button class='big-button' onClick='multiTest()'>TestRunner.run</button>
+</div>
+
+<hr />
+<div id='status-box' class='status-box'>
+  ready
+</div>
+
+</body>
+</html>

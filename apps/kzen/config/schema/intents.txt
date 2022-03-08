@@ -1,0 +1,6 @@
+SchemaField('name', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('agent_name', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('source_flow', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('source_page', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('target_flow', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('target_page', 'STRING', 'NULLABLE', None, (), None)

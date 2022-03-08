@@ -1,0 +1,39 @@
+{
+    "COMMENT": "the bootstrap config sheet",
+    "KZEN_CONFIG_DOC": "google-keydoc-id",
+    "DEFAULT_CREDS_PATH": "./config/default-iam-creds.json",
+    "BQ_PROJECT": "YOUR_GCP_PROJECT",
+    "BQ_DATASET": "YOUR-BQ-DATASET",
+    "BQ_RUNS_TABLE_NAME": "runs",
+    "FLOWSTATS_TABLE": "YOUR-BQ-DATASET.flowstats",
+    "RUNS_TABLE": "`YOUR_GCP_PROJECT.YOUR-BQ-DATASET.runs`",
+    "DASHBOARD_URL": "---",
+
+    "BQ_TABLES": [
+        "agents",
+        "flowstats",
+        "gdocs",
+        "intents",
+        "runs",
+        "sandbox",
+        "stats",
+        "test_runs",
+        "test_sets"
+    ],
+
+    "TABLIST": [
+        "BILL-chat",
+        "AMNT-chat",
+        "BILL-voice",
+        "AMNT-voice",
+        "SANDBOX",
+        "DC-test",
+        "INTL-chat",
+        "INTL-voice",
+        "P2P-chat",
+        "P2P-voice",
+        "XP01",
+        "XP02",
+        "MDNs"
+    ]
+}

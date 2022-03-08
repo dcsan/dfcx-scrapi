@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+*checkpoint*
+temp
+venv*
+# dfcx_scrapi
+logs
+.idea
+ignore
+*.log

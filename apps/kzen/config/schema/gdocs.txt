@@ -1,0 +1,4 @@
+SchemaField('cname', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('tabname', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('url', 'STRING', 'NULLABLE', None, (), None)
+SchemaField('sheet_id', 'STRING', 'NULLABLE', None, (), None)

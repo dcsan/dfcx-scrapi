@@ -1,0 +1,10 @@
+cron:
+
+# totally empty to remove jobs
+
+# - description: "run/watch"
+#   url: /run/watch?token=runfoo!
+#   schedule: every 5 minutes
+- description: "goldset"
+  url: /api/cron/goldset
+  schedule: every 6 hours

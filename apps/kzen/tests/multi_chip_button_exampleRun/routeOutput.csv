@@ -1,0 +1,100 @@
+
+1,send,text,Hi
+2,send,text,Option-A
+3,expectPayload,equalTo,Choose a topic to chat about:
+4,restartAgent,,
+5,send,text,Hi
+6,send,text,Option-A>>choice1
+7,expectPayload,equalTo, this is choice 1 you choose.
+8,restartAgent,,
+9,send,text,Hi
+10,send,text,Option-A>>choice2
+11,expectPayload,equalTo,this is choice 2 you choose.
+12,restartAgent,,
+13,send,text,Hi
+14,send,text,Option-A>>choice3
+15,expectPayload,equalTo, this is choice 3 you choose.
+16,restartAgent,,
+17,send,text,Hi
+18,send,text,Option-B
+19,expectPayload,equalTo,this is option B
+20,restartAgent,,
+21,send,text,Hi
+22,send,text,Option-C
+23,expectPayload,equalTo,this is option C
+24,restartAgent,,
+25,Hello,,
+26,send,text,Hello
+27,send,text,Option-A
+28,expectPayload,equalTo,Choose a topic to chat about:
+29,restartAgent,,
+30,send,text,Hello
+31,send,text,Option-A>>choice1
+32,expectPayload,equalTo, this is choice 1 you choose.
+33,restartAgent,,
+34,send,text,Hello
+35,send,text,Option-A>>choice2
+36,expectPayload,equalTo,this is choice 2 you choose.
+37,restartAgent,,
+38,send,text,Hello
+39,send,text,Option-A>>choice3
+40,expectPayload,equalTo, this is choice 3 you choose.
+41,restartAgent,,
+42,send,text,Hello
+43,send,text,Option-B
+44,expectPayload,equalTo,this is option B
+45,restartAgent,,
+46,send,text,Hello
+47,send,text,Option-C
+48,expectPayload,equalTo,this is option C
+49,restartAgent,,
+50,How are you,,
+51,send,text,How are you
+52,send,text,Option-A
+53,expectPayload,equalTo,Choose a topic to chat about:
+54,restartAgent,,
+55,send,text,How are you
+56,send,text,Option-A>>choice1
+57,expectPayload,equalTo, this is choice 1 you choose.
+58,restartAgent,,
+59,send,text,How are you
+60,send,text,Option-A>>choice2
+61,expectPayload,equalTo,this is choice 2 you choose.
+62,restartAgent,,
+63,send,text,How are you
+64,send,text,Option-A>>choice3
+65,expectPayload,equalTo, this is choice 3 you choose.
+66,restartAgent,,
+67,send,text,How are you
+68,send,text,Option-B
+69,expectPayload,equalTo,this is option B
+70,restartAgent,,
+71,send,text,How are you
+72,send,text,Option-C
+73,expectPayload,equalTo,this is option C
+74,restartAgent,,
+75,What are you doing,,
+76,send,text,What are you doing
+77,send,text,Option-A
+78,expectPayload,equalTo,Choose a topic to chat about:
+79,restartAgent,,
+80,send,text,What are you doing
+81,send,text,Option-A>>choice1
+82,expectPayload,equalTo, this is choice 1 you choose.
+83,restartAgent,,
+84,send,text,What are you doing
+85,send,text,Option-A>>choice2
+86,expectPayload,equalTo,this is choice 2 you choose.
+87,restartAgent,,
+88,send,text,What are you doing
+89,send,text,Option-A>>choice3
+90,expectPayload,equalTo, this is choice 3 you choose.
+91,restartAgent,,
+92,send,text,What are you doing
+93,send,text,Option-B
+94,expectPayload,equalTo,this is option B
+95,restartAgent,,
+96,send,text,What are you doing
+97,send,text,Option-C
+98,expectPayload,equalTo,this is option C
+99,restartAgent,,

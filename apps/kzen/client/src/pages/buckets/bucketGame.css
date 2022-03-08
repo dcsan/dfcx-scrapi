@@ -1,0 +1,104 @@
+.game-board {
+    display: flex;
+    border: 1px solid #444;
+    padding: 10px;
+    background: #8cc;
+    height: calc(100vh - 200px);
+}
+
+.buckets-outer {
+    position: absolute;
+    left: 50vw;
+    height: 100%;
+    display: flex;
+    width: 40vw;
+
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    /* height: 100vh; */
+    /* width: 300px; */
+
+    /* border-left: 1px solid #c88; */
+}
+
+.bucket-intent {
+    border: 1px solid black;
+    background: #EEE;
+    /* font-size: 16px; */
+    padding: 10px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bucket-intent:hover {
+    background: #444;
+    color: white;
+}
+
+.bucket-intent.picked {
+    background: #222;
+    color: white;
+}
+
+.bucket-header {
+    font-size: 30px;
+}
+.bucket-main {
+    font-size: 30px;
+}
+
+.start-button {
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    background: white;
+}
+
+.debug-info {
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.phrase-outer {
+    position: absolute;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
+#phrase {
+    position: absolute;
+    height: 90px;
+    background: blue;
+    /* left: 10px; */
+    right: 70vw;
+    border: 1px solid black;
+    font-size: 30px;
+    font-style: italic;
+    margin: 5px;
+    padding: 10px;
+    background: palegoldenrod;
+    border-radius: 10px;
+    z-index: 10;
+
+    /* animation: slide 15s forwards; */
+}
+
+.slide {
+    animation: slide 0.25s forwards;
+    animation-delay: 0.0s;
+}
+
+@keyframes slide {
+    /* 0% {
+        right: 70vw;
+    } */
+    100% {
+        right: calc(40vw + 10px);
+    }
+}

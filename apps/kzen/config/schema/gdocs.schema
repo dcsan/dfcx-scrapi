@@ -1,0 +1,7 @@
+cname: STRING,
+tabname: STRING,
+usecase: STRING,
+type: STRING,
+url: STRING,
+notes: STRING,
+sheet_id: STRING

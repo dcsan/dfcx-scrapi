@@ -1,0 +1,28 @@
+.grid-box {
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    /* min-height: 100px; */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+
+    box-shadow: 1px 1px 1px #444;
+    /* background-color: white; */
+    /* margin: 5px; */
+}
+
+.grid-box:hover {
+   background-color: #EEE;
+}
+
+.tile-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.help-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

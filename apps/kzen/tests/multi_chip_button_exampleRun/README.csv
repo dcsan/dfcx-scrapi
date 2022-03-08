@@ -1,0 +1,26 @@
+README (multi_chip_button)
+
+Dump your JSON blob to “blob.json”
+List you utterances and upload to “utterances.csv”
+To generate the output script run blob_extractor.py .
+
+
+
+"While dumping JSON blob , make sure"
+They are formatted correctly using jSON editor
+"If you have multiple nodes , make sure to list it as “values”,”message” , “component”"
+"If you have one node , make sure to list your node name and followed by its end response"
+
+Please refer to example .json and .csv file and the output.csv
+
+
+Note : multiple node is provided in example run
+"For 1 node , the .json will look like below:"
+Example :
+{
+"""optionA"": {"
+"""message"": ""This is option A which is the only response possible"""
+}
+}
+
+"After you are done running script , you can download your output file to attach it to your test run (kzen-file)"
